@@ -1,0 +1,55 @@
+{
+    "input_path": "./dataset/table.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 638,
+    "height": 801,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>No.</td><td>Nano Features</td><td>Value</td></tr><tr><td>1</td><td>Microcontroller</td><td>Atmega328p</td></tr><tr><td>2</td><td>Crystal Oscillator</td><td>16MHz</td></tr><tr><td>3</td><td>Operating Voltage</td><td>5V</td></tr><tr><td>4</td><td>Input Voltage</td><td>6V-12V</td></tr><tr><td>5</td><td>Maximum Current Rating</td><td>40mA</td></tr><tr><td>6</td><td>USB</td><td>Type-B Micro USB</td></tr><tr><td>7</td><td>ICSP Header</td><td>Yes</td></tr><tr><td>8</td><td>DC Power Jack</td><td>No</td></tr></table>",
+            "block_bbox": [
+                2,
+                5,
+                637,
+                792
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9802435636520386,
+                "coordinate": [
+                    2.24383544921875,
+                    5.29681396484375,
+                    637.3971557617188,
+                    792.7084350585938
+                ]
+            }
+        ]
+    }
+}
